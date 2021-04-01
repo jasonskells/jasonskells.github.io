@@ -1,0 +1,89 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+article,
+footer,
+header,
+menu,
+main,
+nav,
+section {
+    display: block;
+}
+
+/* make link background transparent */
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+button,
+input,
+select {
+    font: inherit;
+    margin: 0;
+}
+
+button,
+input { 
+    overflow: visible;
+}
+
+.vertical-center {
+    display: block;
+    transform: translateX(20vw);
+    font-size: 5vw;
+}
+
+.container {
+    display: block;
+    grid: 10px;
+ 
+}
+
+.left-circle {
+    background: #7B3F61;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5vw;
+    left: 3vw;
+
+}
+
+.right-circle {
+    background: #E78481;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5vw;
+    left: 6vw;
+    overflow:hidden;
+
+}
+
+.inner-circle {
+    width: 6vw;
+    height: 6vw;
+    background: #09042A;
+    border-radius: 50%;
+    left: -3vw;
+    top: 0vw;
+    position: absolute;
+}
