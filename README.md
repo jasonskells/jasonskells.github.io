@@ -3,4 +3,4 @@
  
 https://jasonskells.github.io
 
-* **still very much so a work-in-progress** *
+* **still very much so a work-in-progress**
